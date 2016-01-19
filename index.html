@@ -3,7 +3,6 @@
   <head>
     <title>Practical Pottery</title>
     <meta charset="UTF-8">
-    <link href="starter-template.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="carousel.css" rel="stylesheet">
@@ -11,7 +10,9 @@
 
   <body>
 
+
 <!-- Nav Bar -->
+
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -25,7 +26,7 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Browse</a></li>
+            <li><a href="#browse">Browse</a></li>
             <li><a href="#about">About Kurt</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
@@ -35,6 +36,10 @@
 
 
 <!-- Start of Carousel -->
+
+<!-- "Note: If you're viewing this page via a file:// URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules."
+http://getbootstrap.com/examples/carousel/ -->
+
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -117,18 +122,18 @@
       <div class="row">
         <div class="col-xs-4">
           <h2>Pitchers</h2>
-          <p>Donec.</p>
+          <p>Pitchers throw and Kurt has thrown some awesome pitchers.</p>
           <p><a class="btn btn-default" href="#" role="button">See Pitchers &raquo;</a></p>
         </div>
         <div class="col-xs-4">
           <h2>Plates</h2>
-          <p>Donec.</p>
+          <p>Decorative and functional, these plates are sure to be your new favorite.</p>
           <p><a class="btn btn-default" href="#" role="button">View Plates and Place Settings &raquo;</a></p>
        </div>
         <div class="col-xs-4">
           <h2>Other Items</h2>
-          <p>Donec.</p>
-          <p><a class="btn btn-default" href="#" role="button">Browse Other Items &raquo;</a></p>
+          <p>There are lots of other pieces available, such as tea kettles, candle holders, hanging planters, and lamp bases!</p>
+          <p><a class="btn btn-default" href="#" role="button">Check out more &raquo;</a></p>
         </div>
       </div>
     </div>
@@ -145,10 +150,8 @@
   <footer>
   <div class="container">
     <div class="row">
-      <div class="col-xs-4">
-      <p>About Kurt</p>
-      <p>Contact</p>
-      <p>&copy; 2016 Practical Pottery</p>
+      <div class="col-xs-12">
+      <p>&copy; 2016 Practical Pottery &middot; <a href="#"> About Kurt </a> &middot; <a href="#"> Contact </a> </p>
       </div>
     </div>
   </div>
